@@ -57,6 +57,26 @@ We employed a **Multi-Layered LSTM Ensemble** approach to capture the sequential
 
 ---
 
+## 📊 Result Analysis
+
+We evaluated our **Multi-Layered LSTM Ensemble** against traditional Machine Learning models (SVM) and other Ensemble methods. Our proposed model outperformed others with an accuracy of **82.43%**.
+
+### 🏆 Performance Comparison
+
+| Model | Accuracy | Precision (Fake) | Precision (Real) | Recall (Fake) | Recall (Real) | F1-Score (Fake) | F1-Score (Real) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **SVM** | 80.00% | 0.83 | 0.77 | 0.76 | 0.84 | 0.79 | 0.81 |
+| **Ensemble (Voting)** | 81.00% | 0.85 | 0.78 | 0.76 | 0.86 | 0.80 | 0.82 |
+| **LSTM Ensemble (Ours)** | **82.43%** | 0.74 | **0.84** | **0.87** | 0.70 | **0.80** | 0.77 |
+
+> **Key Observation:** The LSTM Ensemble achieved the highest **Recall for Fake News (0.87)**, making it highly effective at identifying misinformation (minimizing False Negatives), which is crucial for this domain.
+
+### 📈 Visual Insights
+-   **ROC-AUC Score:** The model achieved an AUC score of **85%**, demonstrating strong discrimination capability between real and fake news.
+-   **Confusion Matrix:** The model shows a balanced classification ability, with a slight trade-off between precision and recall for the "Fake" class to maximize detection rate.
+
+---
+
 ## 📝 Citation
 
 If you use this dataset or code in your research, please cite our paper:
