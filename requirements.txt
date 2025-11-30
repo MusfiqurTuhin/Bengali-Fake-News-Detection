@@ -1,0 +1,8 @@
+pandas
+numpy
+tensorflow
+scikit-learn
+nltk
+bnlp-toolkit
+openpyxl
+jupyter
