@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Rinky"
+  given-names: "Susmita Roy"
+- family-names: "Tusher"
+  given-names: "Md. Mahbubur Rahman"
+- family-names: "Rahman"
+  given-names: "Md. Musfiqur"
+- family-names: "Porag"
+  given-names: "Prithweeraj Acharjee"
+- family-names: "Islam"
+  given-names: "Jahidul"
+- family-names: "Miah"
+  given-names: "Abu Saleh Musa"
+title: "Bengali Fake News Detection: A Multi-Layered LSTM Ensemble Approach"
+date-released: 2025-08-02
+url: "https://github.com/MusfiqurTuhin/Bengali-Fake-News-Detection"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Rinky"
+    given-names: "Susmita Roy"
+  - family-names: "Tusher"
+    given-names: "Md. Mahbubur Rahman"
+  - family-names: "Rahman"
+    given-names: "Md. Musfiqur"
+  - family-names: "Porag"
+    given-names: "Prithweeraj Acharjee"
+  - family-names: "Islam"
+    given-names: "Jahidul"
+  - family-names: "Miah"
+    given-names: "Abu Saleh Musa"
+  doi: "10.1109/QPAIN66474.2025.11171927"
+  journal: "2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN)"
+  title: "Bengali Fake News Detection: A Multi-Layered LSTM Ensemble Approach"
+  year: 2025
+  start: 1
+  end: 6
